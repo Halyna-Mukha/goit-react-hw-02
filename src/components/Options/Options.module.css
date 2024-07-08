@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: rgb(221, 223, 223);
+  border: 0.5px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 24px;
+}
+
+.btn:active {
+  background-color: gray;
+}
