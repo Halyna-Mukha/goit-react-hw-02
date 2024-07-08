@@ -4,6 +4,13 @@ import Feedback from "./Feedback/Feedback";
 import Options from "./Options/Options";
 import Notification from "./Notification/Notification";
 
+const App = () => {
+  const [feedbacks, setFeedbacks] = useState({ good: 0, neutral: 0, bad: 0 });
+
+  const updateFeedback = (feedbackType) => {
+    setFeedbacks((prevFeedbacks) => ({
+      ...prevFeedbacks,
+      [feedbackType]: prevFeedbacks[feedbackType] + 1,
     }));
   };
 
