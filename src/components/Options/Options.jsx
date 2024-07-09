@@ -1,9 +1,6 @@
 import s from "./Options.module.css";
 
 const Options = ({ onFeedback, onReset, totalFeedback }) => {
-
-
-  
   return (
     <div className={s.wrapper}>
       <button onClick={() => onFeedback("good")} className={s.btn}>

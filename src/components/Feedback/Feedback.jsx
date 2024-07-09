@@ -1,6 +1,4 @@
-
-
-const Feedback = ({ feedbacks,totalFeedback, positiveFeedbackPercentage }) => {
+const Feedback = ({ feedbacks, totalFeedback, positiveFeedbackPercentage }) => {
   return (
     <div>
       <h2>Feedback</h2>
